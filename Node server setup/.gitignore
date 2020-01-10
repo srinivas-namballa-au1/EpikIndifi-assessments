@@ -1,0 +1,4 @@
+cypress/
+.eslintrc.json
+cypress.json
+node_modules/

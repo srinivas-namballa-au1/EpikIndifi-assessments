@@ -1,0 +1,30 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "Creating the 1st API saveAccount",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Srinivas Namballa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "moment": "^2.24.0",
+    "mongodb": "^3.4.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.11.0",
+    "pdfmake": "^0.1.63",
+    "pdfreader": "^1.0.6",
+    "unix-timestamp": "^0.2.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "cypress": "^3.7.0",
+    "eslint": "^6.7.2"
+  }
+}
